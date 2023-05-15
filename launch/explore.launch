@@ -1,0 +1,6 @@
+<launch>
+ <include file="/home/student/catkin_ws/src/acs6121_realrobot/launch/arena.launch" />
+ <include file="/opt/ros/noetic/share/turtlebot3_slam/launch/turtlebot3_slam.launch" />
+  <node pkg="realrobot" type="Assignment2.py" name="Assignment" output="screen">
+  </node>
+</launch>
